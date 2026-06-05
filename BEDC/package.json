@@ -1,0 +1,23 @@
+{
+  "name": "bedc-college-website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:setup": "node scripts/setup-mongodb.mjs"
+  },
+  "dependencies": {
+    "mongodb": "^7.2.0",
+    "next": "^16.2.6",
+    "nodemailer": "^8.0.8",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.6"
+  }
+}
