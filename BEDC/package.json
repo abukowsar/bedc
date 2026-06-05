@@ -2,9 +2,9 @@
   "name": "bedc-college-website",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev --webpack",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint .",
     "db:setup": "node scripts/setup-mongodb.mjs"
   },
